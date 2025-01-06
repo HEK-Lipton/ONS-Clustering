@@ -1,7 +1,7 @@
 # ONS-Clustering
 A python web application which uses clustering to group together similar counties on various socio-economic factors. These results are then visually displayed on a cluster map to the user. The user is able to select which combination of data catergories to cluster on.
 
-IMPORTANT: Please read the flask section before running website, as an aditional file is required to successfully run it
+IMPORTANT: Please read the flask section before running website, as an aditional folder is required to successfully run it
 
 -------------------------------------------
 
