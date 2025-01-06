@@ -5,10 +5,10 @@ A python web application which uses clustering to group together similar countie
 
 In this respostory there are two files :
 
-1. Offline Data Pre-processing
+1. Data Pre-processing
 2. Flask
 
-Offline Data Pre-processing contains the python script which pre-processed each individual 2021 ONS census data catergory and converted it into a .csv file that is stored on the website
+Data Pre-processing contains the python script which pre-processed each individual 2021 ONS census data catergory and converted it into a .csv file that is stored on the website. To run it open the file and run the code.ipynb file. This will produce two files main_df.csv and main_df_no_norm.csv.
 
 Flask contains the python web application, which takes the pre-processed data and runs multiple clustering algorithms on it. After finding the best results the cluster results, map and relevant statistics are shown to the user.
 
